@@ -13,6 +13,13 @@ button {
   padding: 5px;
   width: 100px;
   border-radius: 5px;
+  background: Black;
+  color: white;
+}
+
+button:hover {
+  background: white;
+  color: black;
 }
 .fiends {
   background-color: indianred;
