@@ -1,0 +1,54 @@
+.App{
+  margin: 5%;
+}
+.navigation {
+  margin: 2%;
+}
+input {
+margin: 1%;
+padding: 5px;
+border-radius: 5px;
+}
+button {
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  background: Black;
+  color: white;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+.fiends {
+  background-color: indianred;
+  width: 30%;
+  padding: 8px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.friendscard {
+  background-color: rgb(210, 240, 38);
+  margin: 2%;
+  width: 50%;
+  padding: 5px;
+  box-shadow: rgb(179, 177, 172) 2px 5px 8px 4px;
+  border-radius: 20px;
+}
+.loginform {
+  background-color: rgb(210, 240, 38);
+  padding: 20px;
+  height: 600px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: rgb(179, 177, 172) 2px 5px 8px 4px;
+}
+.formclass {
+ padding: 20px;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
