@@ -25,9 +25,10 @@ const Login = (props) => {
     });
   }
   return (
-    <>
+    <div Class="loginform">
     {isLoading ? ( 'Loading...' ) : (
-      <form onSubmit={handleSubmit}>
+      
+      <form class="formclass" onSubmit={handleSubmit}>
         <h3>Log In</h3>
         <form>
           <label>Username</label>
@@ -40,7 +41,7 @@ const Login = (props) => {
           />
         </form>
         <form>
-          <label>Password</label>
+          <label>Password   </label>
           <input
             placeholder="Password"
             type="password"
@@ -52,7 +53,7 @@ const Login = (props) => {
         <button type="submit">Login</button>
       </form>
     )}
-    </>
+    </div>
   )
 }
 
