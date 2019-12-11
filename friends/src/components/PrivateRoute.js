@@ -6,7 +6,7 @@ import MyFriends from "./MyFriends.js";
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route 
     {...rest}
-    render={props => 
+     render={props => 
       localStorage.getItem("token") ? (
         <Component {...props} />
       ) : (
@@ -15,7 +15,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
     }
   />
 );
-
+/*
 const Routes = () => {
   return (
     <div>
@@ -24,5 +24,5 @@ const Routes = () => {
     </div>
   )
 }
-
-export default Routes; 
+*/
+export default PrivateRoute; 

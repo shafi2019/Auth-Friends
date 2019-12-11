@@ -24,6 +24,9 @@ const Login = (props) => {
       [e.target.name]: e.target.value
     });
   }
+
+
+  
   return (
     <div Class="loginform">
     {isLoading ? ( 'Loading...' ) : (
@@ -50,7 +53,7 @@ const Login = (props) => {
             onChange={handleChange}
           />
         </form>
-        <button type="submit">Login</button>
+        <button class="loginbottun" type="submit">Login</button>
       </form>
     )}
     </div>
